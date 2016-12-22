@@ -5,7 +5,11 @@
 	position: relative;
 }
 
-
+.main img {
+	float: right;
+	margin-left: 15px;
+	display: flex;
+}
 /* Navigation */
 
 body {
@@ -20,7 +24,7 @@ h1, h2 {
 }
 
 h1, h2 {
-	font-size: 200%;
+	font-size: 300%;
 }
 
 .main h3 {
