@@ -1,0 +1,51 @@
+#menu a:hover {
+	color: white;
+	background-color: none;
+}
+
+#menu a {
+	text-decoration: none;
+	text-align: center;
+	font-size: large;
+}
+
+#menu a:visited {
+	color: black;
+}
+
+
+.menu ul {
+	border-collapse: collapse;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 65%;
+}
+
+nav {
+	background-color: #83C7FF;
+}
+
+.menu li {
+	float: right;
+}
+
+
+@media (min-width: 760px) {
+	ul#menu {
+		margin: 0px;
+		list-style-type: none;
+		padding-left: 0px;
+	}
+	#menu a {
+		color: #530758;
+		display: block;
+		padding: 5px 20px;
+	}
+	.menu li {
+	display: table-cell;
+	}
+	.menu ul {
+		width: 100%;
+	}
+}
