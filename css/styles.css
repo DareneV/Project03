@@ -1,0 +1,104 @@
+.container {
+	max-width: 960px;
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+/* Navigation */
+
+body {
+	background-image: url(../images/background.png);
+	background-repeat: repeat;
+	background-position: 0% 0%;
+	background-size: auto;
+}
+
+h1, h2 {
+	font-family: 'Oswald', sans-serif;
+}
+
+h1, h2 {
+	font-size: 200%;
+}
+
+.main h3 {
+	font-size: 200%;
+}
+
+p {
+	font-size: 150%;
+}
+
+h3, p, .menu, a, .form {
+	font-family: 'Roboto', sans-serif;
+}
+
+.portfolio-content a {
+	background-color: none;
+}
+
+
+.thumbs a {
+	text-decoration: none;
+	background-color: none;
+}
+
+.thumbs h3 {
+	background-color: #E1E1E1;
+	font-size: medium;
+}
+
+
+
+
+
+
+/*	*************************************
+	Media Queries
+	************************************* */
+
+@media (max-width: 720px) {
+	.article, aside {
+		display: block;
+		width: auto;
+	}
+}
+
+@media (max-width: 540px) {
+	article {
+		background-image: none;
+		padding: 0;
+	}
+	nav {
+		position: static;
+	}
+}
+
+@media (max-width: 390px) {
+	nav li {
+		display: block;
+	}
+	.right {
+		float: none;
+		margin-left: 0;
+		margin-top: 25px;
+	}
+}
+
+
+
+
+.button {
+  background-color: #83C7FF;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width:8%;
+}
+
