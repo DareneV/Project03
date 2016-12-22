@@ -20,7 +20,8 @@
 
 			<div>
 				<label for="email">Email: </label>
-				<input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+(\.[a-z]+)" required>  <!-- want an email like @u.rochester.edu to be valid -->
+				<input type="email" name="email" id="email" pattern="[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}" required>  <!-- want an email like @u.rochester.edu to be valid -->
+
 			</div>
 
 			<div>
