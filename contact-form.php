@@ -20,7 +20,7 @@
 
 			<div>
 				<label for="email">Email: </label>
-				<input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{----}$" required>  <!-- I don't think there should be a retraint to how many characters come after the . and how can you have multiple periods after the @ symbol (since @u.rochester.edu)? -->
+				<input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+(\.[a-z]+)" required>  <!-- want an email like @u.rochester.edu to be valid -->
 			</div>
 
 			<div>
@@ -37,7 +37,7 @@
 		</form>		
 
 	<br>
-	Or Go <a href="."> Back to the Index</a>
+	Or Go <a href="index.php"> Back to the Main Page</a>
 
 	</div>
 
