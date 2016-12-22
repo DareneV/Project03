@@ -34,12 +34,12 @@
 
 			<input type="submit" value="Send">
 
-		</form>	
-
-	</div>	
+		</form>		
 
 	<br>
 	Or Go <a href="."> Back to the Index</a>
+
+	</div>
 
 </body>
 </html>
