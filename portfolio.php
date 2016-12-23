@@ -62,8 +62,8 @@
                 <a href="http://www.urcsc174.org/dvelama/lab01" class="button">Check Me Out</a>
             </div>
 
-            </div>
-            </div>
+        </div>
+    </div>
 
 
 
@@ -71,6 +71,7 @@
 
 
   	<?php include "inc/bottom.inc" ?>
+  	<p class="after-footer"><a href="https://github.com/arsenetoumani/jquery-portfolio">Find the jQuery Plugin Here!</a></p>
 
 </body>
 </html>

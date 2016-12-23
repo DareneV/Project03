@@ -9,18 +9,18 @@
 		<form method="post" action="database-write.php">
 
 			<div>
-				<label for="firstname">First name: </label>
+				<label for="firstname">First Name: </label>
 				<input type="text" name="firstname" id="firstname" required> 
 			</div>
 
 			<div>
-				<label for="lastname">Last name: </label>
+				<label for="lastname">Last Name: </label>
 				<input type="text" name="lastname" id="lastname" required> 
 			</div>
 
 			<div>
 				<label for="email">Email: </label>
-				<input type="email" name="email" id="email" pattern="[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}" required>  <!-- want an email like @u.rochester.edu to be valid -->
+				<input type="email" name="email" id="email" pattern="[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}" required> 
 
 			</div>
 
@@ -41,6 +41,8 @@
 	Or Go <a href="index.php"> Back to the Main Page</a>
 
 	</div>
+
+<?php include "inc/bottom.inc" ?>
 
 </body>
 </html>
