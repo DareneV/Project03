@@ -35,6 +35,14 @@ p {
 	font-size: 150%;
 }
 
+footer p {
+	font-size: large;
+}
+
+.after-footer {
+	font-size: medium;
+}
+
 h3, p, .menu, a, .form {
 	font-family: 'Roboto', sans-serif;
 }
@@ -54,7 +62,7 @@ h3, p, .menu, a, .form {
 	font-size: medium;
 }
 
-
+	
 
 
 

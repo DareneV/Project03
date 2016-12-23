@@ -22,13 +22,11 @@
 	width: 65%;
 }
 
-nav {
-	background-color: #83C7FF;
-}
-
-.menu li {
+.menu {
+	border-bottom: 1px solid #6A77FF;
 	float: right;
 }
+
 
 
 @media (min-width: 760px) {
@@ -41,6 +39,7 @@ nav {
 		color: #530758;
 		display: block;
 		padding: 5px 20px;
+		background-color: #6A77FF;
 	}
 	.menu li {
 	display: table-cell;
