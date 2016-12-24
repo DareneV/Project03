@@ -13,7 +13,7 @@
 
 	$connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
-	$query = "INSERT INTO 'urcscon3_dvelama'.'contact' (first_name, last_name, email, telephone, message) VALUES ('$firstname', '$lastname', '$email', '$telephone', '$message')";
+	$query = "INSERT INTO contact (first_name, last_name, email, telephone, message) VALUES ('$firstname', '$lastname', '$email', '$telephone', '$message')";
 
 	$result = mysqli_query($connection, $query);
 
