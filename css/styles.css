@@ -14,15 +14,15 @@ body {
 	background-size: auto;
 }
 
-header h1 img {
-	align-content: center;
-}
-
 /* For Images */
 
 .main figure {
 	float: right;
 	margin-left: 15px;
+}
+
+header {
+	align-content: center;
 }
 
 /* Fonts: Family and Size */
