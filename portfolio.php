@@ -2,6 +2,7 @@
 
 	<?php include "inc/nav.inc" ?>
 
+<section>
 	<h2>Portfolio</h2>
 
 	<div class="container content">
@@ -29,25 +30,25 @@
             <div id="thumb1">
                 <h2>LOGOS Ad</h2>
                 <p>A screensaver ad for general promotion of the club.</p>
-                <a href="" class="button">Check Me Out</a>
+                <a href="http://www.urcsc174.org/dvelama/ads/" class="button">Check Me Out</a>
             </div>
 
             <div id="thumb2">
                 <h2>Fall Submissions</h2>
                 <p>A reminder to the student body of when our fall submissions deadline is.</p>
-                <a href="" class="button">Check Me Out</a>
+                <a href="http://www.urcsc174.org/dvelama/ads/" class="button">Check Me Out</a>
             </div>
 
             <div id="thumb3">
                 <h2>Winter Break Reminder</h2>
                 <p>In order to remind people that submssions can still be made over break.</p>
-                <a href="" class="button">Check Me Out</a>
+                <a href="http://www.urcsc174.org/dvelama/ads/" class="button">Check Me Out</a>
             </div>
 
             <div id="thumb4">
                 <h2>Winter Break Reminder</h2>
                 <p>In order to remind people that submssions can still be made over break.</p>
-                <a href="" class="button">Check Me Out</a>
+                <a href="http://www.urcsc174.org/dvelama/ads/" class="button">Check Me Out</a>
             </div>
 
             <div id="thumb5">
@@ -65,13 +66,12 @@
         </div>
     </div>
 
-
-
-
-
+</section>
 
   	<?php include "inc/bottom.inc" ?>
-  	<p class="after-footer"><a href="https://github.com/arsenetoumani/jquery-portfolio">Find the jQuery Plugin Here!</a></p>
+  	<div class="after-footer">
+  		<p>(<a href="https://github.com/arsenetoumani/jquery-portfolio">Find the jQuery Plugin Here!</a>)</p>
+  	</div>
 
 </body>
 </html>

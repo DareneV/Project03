@@ -8,7 +8,7 @@
 	$connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
 	// 2. Perform database query
-	$query  = "SELECT * FROM contact ";
+	$query  = "SELECT * FROM 'contact' ";
 
 
 	$result = mysqli_query($connection, $query);
